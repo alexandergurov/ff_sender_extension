@@ -1,0 +1,5 @@
+content qBid chrome/content/
+skin qBid default chrome/skin/
+overlay chrome://browser/content/browser.xul chrome://qBid/content/qBid.xul
+style chrome://qBid/content/qBid.xul chrome://qBid/skin/toolbar.css
+

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>{551599DC-03C9-11E2-8355-A7E56088709B}</em:id>
+        <em:version>1.0</em:version>
+        <em:type>2</em:type>
+
+        <!-- Target Application this extension can install into,
+             with minimum and maximum supported versions. -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>4.0</em:minVersion>
+                <em:maxVersion>15.0.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+
+        <!-- Front End MetaData -->
+        <em:name>qBid</em:name>
+        <em:description>
+            qBid extension.
+        </em:description>
+        <em:creator>Alexander Gurov</em:creator>
+        <em:iconURL>chrome://qBid/skin/icon.png</em:iconURL>
+    </Description>
+</RDF>
+

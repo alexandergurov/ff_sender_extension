@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<overlay id="qBid"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="qBid.js" />
+
+  <toolbar id="nav-bar">
+    <toolbarbutton id="qBid-bid-button"
+      class="toolbarbutton-1 chromeclass-toolbar-additional" 
+      label="qBid"
+      tooltiptext="qBid"
+      oncommand="qBidButtonClicked()"/>
+  </toolbar>
+</overlay>
